@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+            <h1>Train Reservation Form</h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_content">
+                        <label for="full_name">Full name</label>
+                        <input type="text" id="full_name" placeholder="Enter your name">
+                    </div>
+                    <div class="form_content">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="abc@xyz.com">
+                    </div>
+                    <div class="form_content">
+                        <label for="number">Mobile number</label>
+                        <input type="number" id="number" placeholder="Enter your mobile number">
+                    </div>
+                    <div class="form_content">
+                        <label for="date">Date of journey</label>
+                        <input type="date" id="date" placeholder="2024-07-29">
+                    </div>
+                    <div class="txt_area">
+                        <label for="address">Address</label>
+                        <textarea name="Address" id="address" rows="3" cols="50"></textarea>
+                    </div>
+                    <div class="form_content">
+                        <label for="no_pass">Number of passengers</label>
+                        <select name="no_pass" id="no_pass">
+                            <option value="">Select an option</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                    <div class="form_content">
+                        <label for="from">Station from</label>
+                        <select name="from" id="from">
+                            <option value="">Select an option</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Delhi">Delhi</option>
+                        </select>
+                    </div>
+                    <div class="form_content">
+                        <label for="to">Station To</label>
+                        <select name="to" id="to">
+                            <option value="">Select an option</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Delhi">Delhi</option>
+                        </select>
+                    </div>
+                    <div class="form_content">
+                        <label for="doc">Upload Id proof</label>
+                        <input type="file" id="doc" >
+                    </div>
+                </div> 
+                <div class="button_holder">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
