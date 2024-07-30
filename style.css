@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(39, 39, 142,0.7);
+    background-image: url(transportation-speed-blurred-railroad-track-generative-ai.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     max-width: 600px;
