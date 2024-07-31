@@ -1,2 +1,1 @@
-In this project i have revised my css flexbox and grid knowledge. and it took a very long for me to revise those topics but finally i cleared it.
-and also this webpage is also responsive to the size of screens
+In this project, I revised my CSS Flexbox and Grid knowledge. It took a long time, but I finally mastered these topics. Additionally, this webpage is responsive to different screen sizes.
